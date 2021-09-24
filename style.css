@@ -1,0 +1,194 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.brandname{
+    font-size: 40px;
+    
+}
+
+
+.main-title{
+    font-size: 40px;
+    font-weight: 900;
+    max-width: 400px;
+    
+}
+
+.content{
+    font-weight: lighter;
+}
+
+.applybtn{
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    background: #00d2b5;
+    border: 1px solid #00d2b5;
+    font-size: 18px;
+    color: aliceblue;
+}
+.applybtn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid #00d2b5;
+
+}
+
+
+.ytbvid{
+   
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    /* margin-left: 10vw;
+    margin-top: 10vh; */
+}
+.iframe{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.section1video{
+   
+    position: relative;
+    
+}
+@media (  max-width: 768px) {
+    .section1video{
+        width:100% ;
+        height: 500px;
+    }
+  }
+
+
+  .title{
+      font-size: 40px;
+      font-weight: 900;
+  }
+
+  .features{
+      padding-top: 1rem;
+  }
+  
+
+  .cardhead{
+      font-weight: 300;
+  }
+.cardbody{
+    font-weight: 300;
+    color: rgb(102, 100, 100);
+}
+  i.fas{
+      display: inline-block;
+      background-color: #00d2b5;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      padding: 7px;
+      color: aliceblue;
+      font-size: 20px;
+  }
+
+  .card1{
+      width: 18rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+      padding: 2rem;
+      border: none;  
+      border-radius: 10px;
+      transition: 500ms ease-in-out;
+  }
+  
+
+  .icon{
+      padding-bottom: 1rem;
+  }
+
+.card1:hover{
+    background-color: #00d2b5;
+    color: white;
+    transform: translatey(-1em);
+    
+}
+.card1:hover i.fas{
+    background-color: white;
+    color: #00d2b5;
+}
+.card1:hover .cardbody{
+    color: white;
+}
+
+
+@keyframes slide {
+    0%   { transform: translate(0px,100px); }
+    
+  }
+  
+  .card1 {
+   animation-name: slide;
+   animation-duration: 800ms; 
+    
+  }
+  
+.briefvideo{
+    object-fit: contain;
+    
+}  
+
+.section2content{
+    
+    /* margin-right: 10rem; */
+
+}
+
+.section2video{
+    margin-top: 2rem;
+    
+}
+
+.brief{
+    /* border-bottom: solid 2px; */
+    
+}
+
+.lifeat{
+    width: 80rem;
+}
+
+.card2{
+    height: 6rem;
+    transition: 500ms ease-in-out;
+    
+}
+
+.card2 p{
+    font-weight: 200;
+}
+.card2 h6{
+    font-weight: 400;
+}
+
+.card2:hover{
+    background-color: #00d2b5;
+    color: white;
+    transform: translatey(-1em);
+}
+
+@keyframes slide1 {
+    0%   { transform: translate(0px,100px); }
+    
+  }
+  
+.card2 {
+    animation-name: slide1;
+    animation-duration: 800ms; 
+    
+}
+  
