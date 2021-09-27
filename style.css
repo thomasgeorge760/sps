@@ -365,3 +365,136 @@ body{
     right: -19px;
     border-radius: 50%;
 }
+
+
+/* chat */
+
+
+
+#leftSideChat {
+    border-radius: 20px;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: 3rem;
+    position: relative;
+    background-color: #E5E5EA;
+    max-width: 75%;
+    margin-top: 20px;
+    padding-left: 33px;
+    padding-right: 20px;
+}
+
+#rightSideChat {
+    margin-left: auto;
+    width: fit-content;
+    margin-right: 3rem;
+    position: relative;
+    background-color: #22d1b5;
+    max-width: 75%;
+    border-radius: 20px;
+}
+
+.tailLeft {
+    border-bottom-right-radius: 113%;
+    width: 20px;
+    height: 20px;
+    background-color: #E5E5EA;
+    position: absolute;
+    top: 72%;
+    left: 1;
+    transform: rotate(22deg);
+    left: 0;
+}
+
+.tailRight {
+    right: 0;
+    top: 80%;
+    border-bottom-left-radius: 113%;
+    width: 20px;
+    height: 20px;
+    background-color: #00d2b5;
+    position: absolute;
+    /* left: 84%; */
+    transform: rotate(329deg);
+}
+
+#chatBoxFull {
+    height: 400px;
+    /* overflow-x: auto; */
+    scrollbar-width: thin;
+}
+
+#leftSideChat i {
+    color: rgb(231, 231, 122);
+    background-color: black;
+    border-radius: 50%;
+}
+
+#leftSideChat a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.rightpop {
+    top: -23px;
+    position: absolute;
+    display: none;
+    font-size: 12px;
+    margin-top: 4px;
+    color: rgba(0, 0, 0, 0.445);
+}
+
+#rightSideChat:hover .SenterRight {
+    display: block;
+}
+
+#rightSideChat:hover {
+    transform: translateY(15px);
+    transition: .2s ease-in;
+}
+
+.leftpop {
+    top: -23px;
+    position: absolute;
+    display: none;
+    font-size: 12px;
+    margin-top: 4px;
+    color: rgba(0, 0, 0, 0.445);
+}
+
+#leftSideChat:hover .SenterLeft {
+    display: block;
+}
+
+#leftSideChat:hover {
+    transform: translateY(15px);
+    transition: .2s ease-in;
+}
+
+#chatBoxFull::-webkit-scrollbar-track {
+    width: 1em;
+}
+
+#leftSideChat::before {
+    content: "";
+    width: 10px;
+    height: 20px;
+    background-color: #E5E5EA;
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    transform: rotate(20deg);
+    border-bottom-right-radius: 138%;
+}
+
+#rightSideChat::after {
+    content: "";
+    width: 10px;
+    height: 20px;
+    background-color: #00d2b5;
+    position: absolute;
+    bottom: -7px;
+    right: 0;
+    transform: rotate(325deg);
+    border-bottom-left-radius: 138%;
+}
