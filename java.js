@@ -1,11 +1,11 @@
-function resize(){
-    document.getElementById('pic').style.display='none';
-    var x=document.getElementById('video');
-    x.style.display='block';
-    x.src+='?autoplay=1';
-     
+function resize1(){
+    document.getElementById('image1').style.display='none';
+    document.getElementById('iframe1').src+='?autoplay=1';
+    var a=document.getElementById('video1');
+    a.style.display='block';
+    
+    
 }
-
 function resize2(){
     var y=document.getElementById('video2');
     y.style.display='block';
