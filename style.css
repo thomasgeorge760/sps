@@ -4,6 +4,10 @@
     
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .brandname{
     font-size: 40px;
     
@@ -19,6 +23,7 @@
 
 .content{
     font-weight: lighter;
+    color: rgb(126, 128, 128);
 }
 
 .applybtn{
@@ -47,23 +52,23 @@
     /* margin-left: 10vw;
     margin-top: 10vh; */
 }
-.iframe{
+/* .iframe{
     width: 100%;
     height: 100%;
     
-}
+} */
 
 .section1video{
    
     position: relative;
     
 }
-@media (  max-width: 768px) {
+/* @media (  max-width: 768px) {
     .section1video{
         width:100% ;
         height: 500px;
     }
-  }
+  } */
 
 
   .title{
@@ -81,7 +86,7 @@
   }
 .cardbody{
     font-weight: 300;
-    color: rgb(102, 100, 100);
+    color: rgb(75, 73, 73);
 }
   i.fas{
       display: inline-block;
@@ -95,9 +100,9 @@
   }
 
   .card1{
-      width: 18rem;
-      margin-left: 2rem;
-      margin-right: 2rem;
+      
+      margin-left: 2.5rem;
+      margin-right: 2.5rem;
       margin-top: 1rem;
       margin-bottom: 2rem;
       padding: 2rem;
@@ -158,9 +163,7 @@
     
 }
 
-.lifeat{
-    width: 80rem;
-}
+
 
 .card2{
     height: 6rem;
@@ -170,6 +173,7 @@
 
 .card2 p{
     font-weight: 200;
+    text-align: start;
 }
 .card2 h6{
     font-weight: 400;
@@ -191,4 +195,171 @@
     animation-duration: 800ms; 
     
 }
+
+
+.lifeat{
+   padding-bottom: 2rem;
+}
   
+
+#sketch1{
+    border-left: 3px solid #00d2b5;
+    border-bottom: 3px solid #00d2b5;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+#sketch1::before {
+    content: "1";
+    width: 35px;
+    height: 35px;
+    background-color: #00d2b5;
+    position: absolute;
+    
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    top: -10px;
+    left: -19px;
+    border-radius: 50%;
+    
+}
+
+
+#sketch2{
+    border-right: 3px solid #00d2b5;
+    border-bottom: 3px solid #00d2b5;
+    border-top: 3px solid #00d2b5;
+    padding: 25px;
+    border-top-right-radius: 20px;
+    margin-top: -3px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+#sketch2::after {
+    content: "2";
+    width: 35px;
+    height: 35px;
+    background-color: #00d2b5;
+    color: aliceblue;
+    position: absolute;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    top: 60px;
+    right: -19px;
+    border-radius: 50%;
+}
+
+
+#sketch3{
+    border-left: 3px solid #00d2b5;    
+    border-top: 3px solid #00d2b5;
+    padding: 25px;
+    border-top-left-radius: 20px;
+    margin-top: -3px;
+}
+
+#sketch3::after {
+    content: "3";
+    width: 35px;
+    height: 35px;
+    background-color: #00d2b5;
+    color: aliceblue;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -10px;
+    left: -19px;
+    border-radius: 50%;
+}
+
+.wantto{
+    
+}
+
+#sketch21{
+    border-right: 3px solid #00d2b5;
+    border-bottom: 3px solid #00d2b5;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+#sketch21::before {
+    content: "1";
+    width: 35px;
+    height: 35px;
+    background-color: #00d2b5;
+    position: absolute;
+    
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    top: -10px;
+    right: -18px;
+    border-radius: 50%;
+    
+}
+
+
+#sketch22{
+    border-left: 3px solid #00d2b5;
+    border-bottom: 3px solid #00d2b5;
+    border-top: 3px solid #00d2b5;
+    padding: 25px;
+    border-top-left-radius: 20px;
+    
+    border-bottom-left-radius: 20px;
+    margin-top: -3px;
+}
+
+#sketch22::after {
+    content: "2";
+    width: 35px;
+    height: 35px;
+    background-color: #00d2b5;
+    color: aliceblue;
+    position: absolute;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    top: 60px;
+    left: -19px;
+    border-radius: 50%;
+}
+
+
+#sketch23{
+    border-right: 3px solid #00d2b5;    
+    border-top: 3px solid #00d2b5;
+    padding: 25px;
+    border-top-right-radius: 20px;
+    margin-top: -3px;
+}
+
+#sketch23::after {
+    content: "3";
+    width: 35px;
+    height: 35px;
+    background-color: #00d2b5;
+    color: aliceblue;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -10px;
+    right: -19px;
+    border-radius: 50%;
+}
